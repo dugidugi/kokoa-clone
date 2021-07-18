@@ -1,0 +1,38 @@
+.user-component,
+.user-component__column {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-component__avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 30%;
+    margin-right: 10px;
+}
+
+.user-component__avatar-large {
+    width: 70px;
+    height: 70px;
+}
+
+.user-component__avatar-small {
+    width: 50px;
+    height: 50px;
+}
+
+.user-component__title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.user-component__description {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    padding-top: 5px;
+}
+
+.user-component__column:last-child {
+    color: rgba(0, 0, 0, 0.5);
+}
