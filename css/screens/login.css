@@ -1,33 +1,32 @@
-
-.welcome-header{
+.welcome-header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin : 50px 0px;
-    text-align: center  ;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
-.welcome-header__title{
+.welcome-header__title {
     margin: 50px 0px;
     font-size: 24px;
     font-weight: 500;
 }
 
-.welcome-header__text{
+.welcome-header__text {
     width: 60%;
     font-size: 16px;
     color: rgba(0, 0, 0, 0.4);
     font-weight: 300;
 }
 
-.login-from{
+.login-from {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0px 30px;
 }
 
-.login-from input{
+.login-from input {
     font-size: 18px;
     width: 90%;
     border: none;
@@ -37,22 +36,22 @@
     transition: border-color 0.3s ease-in-out;
 }
 
-.login-from input::placeholder{
+.login-from input::placeholder {
     color: rgba(0, 0, 0, 0.2);
 }
 
-.login-from input:focus{
+.login-from input:focus {
     border-color: var(--yellow);
 }
 
-.login-from input[type="submit"]{
+.login-from input[type='submit'] {
     border: none;
     background-color: var(--yellow);
     border-radius: 5px;
     padding: 20px 0px;
 }
 
-.login-from a{
+.login-from a {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.4);
     font-size: 13px;
